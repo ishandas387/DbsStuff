@@ -7,7 +7,7 @@ def find_number_of_occurances(list_of_items):
     dict_count={}
     for i in list_of_items:
         if(i in dict_count):
-            dict_count[i] = dict_count.get(i) + 12
+            dict_count[i] = dict_count.get(i) + 1
         else:
             dict_count[i] = 1
     print("The frequency of all elements in the list : ")
